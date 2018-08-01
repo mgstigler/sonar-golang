@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-03.dtd">
+<!DOCTYPE coverage SYSTEM "https://raw.github.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/cov">
 <coverage line-rate="0" branch-rate="0" version="" timestamp="1493217424599">
 	<packages>
 		<package name="projectblackwhitego/util" line-rate="0" branch-rate="0" complexity="0">
