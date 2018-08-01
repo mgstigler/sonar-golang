@@ -70,7 +70,7 @@ public class CoverageParser implements Parser {
 
 	if (!checkDtd) {
 	    db.setEntityResolver((publicId, systemId) -> {
-		if (systemId.contains("http://cobertura.sourceforge.net/xml/coverage-03.dtd")) {
+		if (systemId.contains("https://raw.github.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/cov")) {
 		    return new InputSource(new StringReader(""));
 		} else {
 		    return null;
